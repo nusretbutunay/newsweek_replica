@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --newsweek-red-color: #f72210;
+  --header-btn-color: #ffe400;
+  --social-icons-color: #666;
+  --social-icons-hover-color: #3b5998;
+  --side-links-hover-color: #f92859;
+}
+
+body {
+  background-color: #333;
+}
+
+.logo {
+  width: 100px;
+}
