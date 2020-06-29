@@ -66,6 +66,7 @@ li {
   background-color: white;
   width: fit-content;
   opacity: 0.8;
+  margin-bottom: 0 !important;
   z-index: 1;
 }
 
@@ -77,9 +78,40 @@ li {
   text-decoration-color: #f72210;
 }
 
+.w-15 {
+  width: 15%;
+}
+
 .separator {
   height: 18px;
   background-color: #f4f5f7;
   border-top: 1px solid #e2e2e2;
   width: 100%;
+  margin: 2rem 0;
+}
+
+.debate-top-border {
+  border-top: #f92859 4px solid;
+}
+
+.debate-bottom-border {
+  border-bottom: #1c87fb 4px solid;
+}
+
+.red-on-hover:hover {
+  text-decoration: none;
+}
+
+.vs {
+  margin: 1rem 0;
+  height: 3px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.vs-text {
+  background-color: black;
+  border-radius: 50%;
+  padding: 0.3rem;
+  color: white;
 }
