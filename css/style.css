@@ -34,11 +34,16 @@ li {
 .top-btn-group button i {
   color: #bbb;
 }
-
+#sub-btn {
+  background-color: var(--header-btn-color);
+  border-radius: 24px;
+  padding: 2px 12px;
+  font-weight: bold;
+}
 .logo-section {
   background-color: var(--newsweek-red-color);
   padding: 0 10px;
-  height: 8vh;
+  height: 13vh;
 }
 
 .logo-top {
@@ -48,4 +53,10 @@ li {
 .brand {
   fill: white;
   width: 140px;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
