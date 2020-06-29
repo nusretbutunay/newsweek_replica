@@ -25,13 +25,27 @@ li {
   list-style: none;
 }
 
+.top-btn-group button {
+  background: none;
+  border: none;
+  margin: 0 5px;
+}
+
+.top-btn-group button i {
+  color: #bbb;
+}
+
 .logo-section {
   background-color: var(--newsweek-red-color);
+  padding: 0 10px;
+  height: 8vh;
 }
 
 .logo-top {
-  padding-left: 10px;
+  padding-left: 15px;
 }
-.brand svg {
+
+.brand {
   fill: white;
+  width: 140px;
 }

@@ -14,18 +14,18 @@
     <title>The Newsweek Replica</title>
 </head>
 <body>
-    <div class="container">
-        <header>
+  
+        <header id="header">
             <div class="logo-section d-flex justify-content-between align-items-center">
                 <div class="weather d-none d-lg-block">
                     <h5>22° Istanbul, TR</h5>
                     <h5>Fri, Jun 26, 2020</h5>
                 </div>
-                <img class="brand" src="img/logo.svg" alt="">
+                <img class="brand" src="img/logo.svg" alt="logo">
                 <div class="top-btn-group d-flex justify-content-end">
                     <button><i class="fas fa-user"></i></button>
-                    <button class="btn">login</button>
-                    <button class="btn">free trial</button>
+                    <button class="d-none d-lg-block">login</button>
+                    <button>subscribe</button>
                    <button><i class="fas fa-bars"></i></button> 
 
                 </div>
@@ -96,6 +96,7 @@
                     </li>
                 </div>
         </header>
+        <div class="container">
         <div class="row">
             <section class="col-lg-4 col-md-6">
               <h3>FEATURED STORIES </h3>
@@ -400,7 +401,7 @@
                             <p>START YOUR DAY WITH OUR TOP 5 ARTICLES</p>
                         </div>
                         <div class="form-label-group">
-                          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+                          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="">
                         </div>
                         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 
@@ -823,7 +824,7 @@
           See why nearly a quarter of a million subscribers begin their day with the Starting 5.
         </p>
         <div class="form-label-group">
-          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="">
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 
