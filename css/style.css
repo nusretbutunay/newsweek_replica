@@ -86,7 +86,7 @@ li {
 }
 
 .w-15 {
-  width: 15%;
+  width: 65px;
 }
 
 .separator {
@@ -165,5 +165,14 @@ footer {
   .subscribe-content {
     padding-top: 0;
     padding-bottom: 1rem;
+  }
+
+  .editors-pick-logo {
+    width: 20px;
+    height: 20px;
+  }
+
+  .separator {
+    display: none;
   }
 }
