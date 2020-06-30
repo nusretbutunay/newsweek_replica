@@ -146,3 +146,24 @@ footer {
   width: 240px;
   fill: white;
 }
+
+@media screen and (min-width: 768px) {
+  .subscribe {
+    height: 300px;
+  }
+
+  .subscribe-img-1 {
+    top: -130px;
+    left: 10%;
+  }
+
+  .subscribe-img-2 {
+    top: -114px;
+    left: 32%;
+  }
+
+  .subscribe-content {
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+}
