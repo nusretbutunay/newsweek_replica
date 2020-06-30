@@ -119,3 +119,18 @@ li {
   padding: 0.3rem;
   color: white;
 }
+
+.subscribe-img-1 {
+  top: 1.8rem;
+  left: 40%;
+}
+
+.subscribe-img-2 {
+  top: 3rem;
+  left: 60%;
+}
+
+.subscribe-content {
+  padding-top: 60%;
+  padding-bottom: 1rem;
+}
