@@ -52,7 +52,6 @@ li {
 }
 
 .brand {
-  fill: white;
   width: 140px;
 }
 
@@ -133,4 +132,6 @@ li {
 .subscribe-content {
   padding-top: 60%;
   padding-bottom: 1rem;
+}
+.footer-logo {
 }
