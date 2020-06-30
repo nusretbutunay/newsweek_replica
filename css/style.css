@@ -175,4 +175,11 @@ footer {
   .separator {
     display: none;
   }
+  .img-md-w {
+    width: 25%;
+  }
+
+  .img-md-w img {
+    width: 50%;
+  }
 }
