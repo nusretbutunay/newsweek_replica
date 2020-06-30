@@ -38,6 +38,10 @@ li {
   color: #bbb;
 }
 
+.flex-basis-100{
+  flex-basis: 100%;
+}
+
 #sub-btn {
   background-color: var(--header-btn-color);
   border-radius: 24px;
