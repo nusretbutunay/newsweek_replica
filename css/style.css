@@ -24,6 +24,10 @@ li {
   list-style: none;
 }
 
+.fab {
+  font-size: 1.5rem;
+}
+
 .top-btn-group button {
   background: none;
   border: none;
@@ -133,5 +137,12 @@ li {
   padding-top: 60%;
   padding-bottom: 1rem;
 }
+
+footer {
+  font-size: 0.9em;
+}
+
 .footer-logo {
+  width: 240px;
+  fill: white;
 }
