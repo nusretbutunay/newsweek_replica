@@ -10,18 +10,18 @@ In this project:
 2. We used mainly bootstrap classes instead of pure css.
 
 ![screenshot](/img/screenshot.PNG)
-​​
+
 
 ## Built With
 
 - HTML5
 - CSS3
-  ​
+  
 
 ## Live Demo
 
 ​
-[Live Demo Link](https://rawcdn.githack.com/nusretbutunay/newsweek_replica/4978b8f90a56da63cf25763b227f3cc852ece885/index.html)
+[Live Demo Link](https://rawcdn.githack.com/nusretbutunay/newsweek_replica/c9f7f6e309199b6d60536c891047a5989024effc/index.html)
 ​
 
 ## Getting Started
