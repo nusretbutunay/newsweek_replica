@@ -21,7 +21,7 @@ In this project:
 ## Live Demo
 
 ​
-[Live Demo Link](https://raw.githack.com/nusretbutunay/newsweek_replica/newsweek/index.html)
+[Live Demo Link](https://rawcdn.githack.com/nusretbutunay/newsweek_replica/4978b8f90a56da63cf25763b227f3cc852ece885/index.html)
 ​
 
 ## Getting Started
