@@ -561,7 +561,7 @@ pre code {
 
 @media (min-width: 992px) {
   .container {
-    max-width: 98% !important;
+    max-width: 985px !important;
   }
 }
 

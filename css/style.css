@@ -16,6 +16,10 @@
   --side-links-hover-color: #f92859;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 img {
   width: 100%;
 }
@@ -38,6 +42,31 @@ li {
   color: #bbb;
 }
 
+.navbar a {
+  font-size: 1rem;
+}
+
+.search-bar {
+  border: none;
+  width: 60px;
+}
+
+.corner-right {
+  position: relative;
+}
+
+.corner-right::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 66px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
 .fixed-width {
   width: 340px;
 }
@@ -56,6 +85,7 @@ li {
 .logo-section {
   background-color: var(--newsweek-red-color);
   padding: 0 10px;
+  height: 50px;
 }
 
 .logo-top {
@@ -195,8 +225,17 @@ footer {
     width: 50%;
   }
 }
-@media screen and (min-width: 1024px) {
+
+@media screen and (min-width: 992px) {
   .brand {
-    width: 30%;
+    width: 400px;
+  }
+
+  .logo-section {
+    height: 95px;
+  }
+
+  .main {
+    padding-top: 150px;
   }
 }
