@@ -69,6 +69,7 @@ li {
 
 .main {
   max-width: 96% !important;
+  margin: 0 auto;
 }
 
 .fixed-width {
@@ -269,7 +270,7 @@ footer {
   }
 
   .fixed-width {
-    width: 310px;
+    width: 100%;
   }
 
   .subscribe-content button {
