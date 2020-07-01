@@ -38,7 +38,11 @@ li {
   color: #bbb;
 }
 
-.flex-basis-100{
+.fixed-width {
+  width: 340px;
+}
+
+.flex-basis-100 {
   flex-basis: 100%;
 }
 
@@ -152,6 +156,10 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+  .img-btm-text {
+    font-size: 0.7rem;
+  }
+
   .subscribe {
     height: 300px;
   }
@@ -172,13 +180,14 @@ footer {
   }
 
   .editors-pick-logo {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
 
   .separator {
     display: none;
   }
+
   .img-md-w {
     width: 25%;
   }
