@@ -43,7 +43,7 @@ li {
 }
 
 .navbar a {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .search-bar {
@@ -67,12 +67,26 @@ li {
   border-top: 13px solid #f72210;
 }
 
+.main {
+  max-width: 96% !important;
+}
+
 .fixed-width {
   width: 340px;
 }
 
 .flex-basis-100 {
   flex-basis: 100%;
+}
+
+.mid-container {
+  width: 97%;
+  margin: 0 auto;
+}
+
+.bottom-container {
+  width: 95%;
+  margin: 0 auto;
 }
 
 #sub-btn {
@@ -108,6 +122,17 @@ li {
   opacity: 0.8;
   margin-bottom: 0 !important;
   z-index: 1;
+}
+
+.subscribe-content {
+  padding: 1rem;
+  text-align: center;
+  padding-top: 60%;
+  padding-bottom: 1rem;
+}
+
+.subscribe-content button {
+  margin: 0 auto;
 }
 
 .img-btm-text:hover {
@@ -170,11 +195,6 @@ li {
   left: 60%;
 }
 
-.subscribe-content {
-  padding-top: 60%;
-  padding-bottom: 1rem;
-}
-
 footer {
   font-size: 0.9em;
 }
@@ -189,23 +209,32 @@ footer {
     font-size: 0.7rem;
   }
 
-  .subscribe {
-    height: 300px;
+  .subscribe-section {
+    height: 380px;
+  }
+
+  .subscribe-cnt {
+    height: 90%;
   }
 
   .subscribe-img-1 {
-    top: -130px;
+    top: -150px;
     left: 10%;
   }
 
   .subscribe-img-2 {
-    top: -114px;
+    top: -134px;
     left: 32%;
   }
 
   .subscribe-content {
     padding-top: 0;
     padding-bottom: 1rem;
+    text-align: center;
+  }
+
+  .subscribe-content button {
+    margin: 0;
   }
 
   .editors-pick-logo {
@@ -237,5 +266,17 @@ footer {
 
   .main {
     padding-top: 150px;
+  }
+
+  .fixed-width {
+    width: 310px;
+  }
+
+  .subscribe-content button {
+    padding: 0.6rem;
+  }
+
+  .newsletter-bottom {
+    height: 340px;
   }
 }

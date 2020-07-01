@@ -549,13 +549,13 @@ pre code {
 
 @media (min-width: 576px) {
   .container {
-    max-width: 98% !important;
+    max-width: 97% !important;
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    max-width: 98% !important;
+    max-width: 95% !important;
   }
 }
 
