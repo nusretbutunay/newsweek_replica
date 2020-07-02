@@ -1,0 +1,2512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>The Newsweek Replica</title>
+  </head>
+
+  <body class="bg-light">
+    <header class="d-lg-flex justify-content-lg-center">
+      <div class="wrapper">
+        <div
+          class="logo-section d-flex justify-content-between align-items-end py-3"
+        >
+          <div class="weather d-none d-lg-block text-white pl-3">
+            <h6>22° Istanbul, TR</h6>
+            <h6 class="font-weight-light">Fri, Jun 26, 2020</h6>
+          </div>
+          <img class="brand" src="img/logo.svg" alt="logo" />
+          <div class="top-btn-group d-flex justify-content-end">
+            <button class="d-lg-none"><i class="fas fa-user"></i></button>
+            <button class="d-none d-lg-block text-white font-weight-bold mr-2">
+              LOGIN
+            </button>
+            <button class="initialism py-lg-1 px-lg-3 mr-lg-4" id="sub-btn">
+              SUBSCRIBE >
+            </button>
+            <button class="d-lg-none mr-4"><i class="fas fa-bars"></i></button>
+          </div>
+        </div>
+
+        <nav
+          class="navbar navbar-expand-lg navbar-dark bg-white d-none d-lg-block px-0 mx-0 border-bottom corner-right"
+        >
+          <div
+            class="collapse navbar-collapse d-flex align-items-center justify-content-lg-between w-100 top-nav"
+          >
+            <ul class="navbar-nav d-flex w-100 justify-content-lg-between">
+              <li class="nav-item active">
+                <a class="nav-link text-dark font-weight-bold" href="#"
+                  >U.S. <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item border-left">
+                <a class="nav-link text-dark font-weight-bold" href="#"
+                  >World</a
+                >
+              </li>
+              <li class="nav-item border-left">
+                <a class="nav-link text-dark font-weight-bold" href="#"
+                  >Business</a
+                >
+              </li>
+              <li class="nav-item border-left">
+                <a class="nav-link text-dark font-weight-bold" href="#"
+                  >Tech & Science</a
+                >
+              </li>
+              <li class="nav-item border-left">
+                <a class="nav-link text-dark font-weight-bold" href="#"
+                  >Culture</a
+                >
+              </li>
+              <li class="nav-item border-left">
+                <a class="nav-link text-dark font-weight-bold" href="#"
+                  >Newsgeek</a
+                >
+              </li>
+              <li class="nav-item border-left">
+                <a class="nav-link text-dark font-weight-bold" href="#"
+                  >Sports</a
+                >
+              </li>
+              <li class="nav-item border-left">
+                <a class="nav-link text-dark font-weight-bold" href="#"
+                  >Health</a
+                >
+              </li>
+              <li class="nav-item border-left">
+                <a class="nav-link text-dark font-weight-bold" href="#"
+                  >The Debate</a
+                >
+              </li>
+              <li class="nav-item border-left">
+                <a class="nav-link text-dark font-weight-bold" href="#"
+                  >Vantage</a
+                >
+              </li>
+              <li class="nav-item border-left">
+                <a class="nav-link text-dark font-weight-bold" href="#"
+                  >Weather</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex align-items-center mr-5">
+              <input
+                class="search-bar bg-white"
+                type="text"
+                placeholder="Search"
+              />
+              <i class="fas fa-search"></i>
+            </form>
+          </div>
+        </nav>
+        <nav
+          class="navbar navbar-expand-lg navbar-dark bg-white d-none d-lg-block border-bottom"
+        >
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link text-dark font-weight-bold" href="#"
+                  >TRENDING<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary font-weight-bold" href="#">
+                  DONALD TRUMP</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary font-weight-bold" href="#"
+                  >JOE BIDEN</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary font-weight-bold" href="#"
+                  >CHINA</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary font-weight-bold" href="#"
+                  >CORONAVIRUS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary font-weight-bold" href="#"
+                  >2020 ELECTION</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="main bg-white">
+        <div class="row pt-5 text-secondary mid-container">
+          <section class="col-lg-4 col-md-6">
+            <div class="d-sm-block d-md-none">
+              <h6>TOP STORY</h6>
+              <div class="featured-story">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1603694/ron-desantis.jpg"
+                    alt="img"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                    >U.S.</a
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold lead"
+                  >McConnell Says U.S. Needs 'More Testing, Not Less' After
+                  Trump Comments</a
+                >
+                <p>
+                  "We all need to scale up," Senate Majority Leader Mitch
+                  McConnell (R-KY) said.
+                </p>
+              </div>
+            </div>
+            <div class="separator"></div>
+            <div>
+              <h6>FEATURED STORIES</h6>
+              <div class="featured-story">
+                <div class="position-relative">
+                  <img src="img/president-trump.jpg" alt="img-1" />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                    >U.S.</a
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold lead"
+                  >Trump Slams Democrat-Led, Majority-Black Cities: 'It's Like
+                  Living in Hell'</a
+                >
+                <p>
+                  During a pre-taped, sit-down interview with Fox News' Sean
+                  Hannity that aired Thursday, Trump slammed crime in inner
+                  cities and said he's often thanked for his "law and order"
+                  approach amid unrest across the country.
+                </p>
+              </div>
+              <div class="featured-story">
+                <div class="position-relative">
+                  <img src="img/coronavirus.jpg" alt="img-2" />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                    >U.S.</a
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold lead"
+                >
+                  CDC Coronavirus Symptoms List Added 3 New Symptoms, Including
+                  Runny Nose</a
+                >
+                <p>
+                  According to recent data, the U.S. leads the world in the
+                  number of positive coronavirus cases with 2,502,311 instances
+                  of the infection reported.
+                </p>
+              </div>
+              <div class="featured-story">
+                <div class="position-relative">
+                  <img src="img/weight-loss.jpg" alt="img-3" />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                    >MY TURN</a
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold lead"
+                >
+                  'I Lost Nearly 300lbs in Less Than a Year'</a
+                >
+                <p>
+                  I'm 5ft 10inches and after high school my weight was above
+                  500lbs and climbing. I didn't go to theme parks because I knew
+                  I probably wouldn't fit on the rides and when I went on an
+                  airplane I would buy two seats.
+                </p>
+              </div>
+
+              <div class="featured-story">
+                <div class="position-relative">
+                  <img src="img/florida-senior.jpg" alt="img-4" />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                    >U.S.</a
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold lead"
+                >
+                  Florida's Seniors, Latinos Are Losing Faith in Trump, Dooming
+                  His Campaign
+                </a>
+                <p>
+                  Changes in the state with seniors and Latinos do not bode well
+                  for President Donald Trump's campaign and Democrats are trying
+                  to use that to their advantage.
+                </p>
+              </div>
+              <div class="featured-story">
+                <div class="position-relative">
+                  <img
+                    src="img/house-passes-historic-police-reform.jpg"
+                    alt="img-5"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                    >U.S.</a
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold lead"
+                  >Police Reform Passes House as Democrats Try to Pressure GOP
+                  Amid Standoff</a
+                >
+                <p>
+                  While the bill's approval marks a major milestone for
+                  overhauling America's law enforcement agencies, Congress is
+                  far from delivering any legislation on the matter to the
+                  president's desk.
+                </p>
+              </div>
+
+              <div class="d-none d-md-block">
+                <div class="featured-story">
+                  <div class="position-relative">
+                    <img src="img/americas-best-realtors-2020.jpg" alt="" />
+                    <a
+                      href="#"
+                      class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                      >RANKINGS</a
+                    >
+                  </div>
+                  <a
+                    href="#"
+                    class="red-underlined-link text-dark font-weight-bold lead"
+                    >America’s Best Realtors 2020</a
+                  >
+                  <p>
+                    Newsweek partnered with REAL Trends to sort through the data
+                    and provide you with a list of America's Best Real Estate
+                    Professionals
+                  </p>
+                </div>
+
+                <div class="featured-story">
+                  <div class="position-relative">
+                    <img src="img/newsweek-amplify.png" alt="img" />
+                  </div>
+                  <a
+                    href="#"
+                    class="red-underlined-link text-dark font-weight-bold lead"
+                  >
+                    Newsweek AMPLIFY Launches Strategic Partnership Solutions
+                    for Brands</a
+                  >
+                  <p>
+                    Newsweek AMPLIFY, the company's performance marketing
+                    business unit, has launched a new program to empower digital
+                    brands with comprehensive content marketing and advertising
+                    strategies.
+                  </p>
+                </div>
+              </div>
+
+              <div class="separator"></div>
+              <div class="d-md-none d-lg-none">
+                <div class="debate">
+                  <h6 class="text-secondary">THE DEBATE</h6>
+                  <div class="debate-top-border py-2">
+                    <img
+                      class="w-15 float-left border border-danger rounded-circle mr-3"
+                      src="https://d.newsweek.com/en/full/1603135/lyman-stone-w-bradford-wilcox.webp?w=150&h=150&f=d1dab88c21801f4aeeaef829ccbf2f03"
+                      alt="authorimg"
+                    />
+                    <a href="#" class="red-on-hover text-dark font-weight-bold"
+                      >Empty Cradles Means a Bleaker Future</a
+                    >
+                    <p class="text-secondary">
+                      BY
+                      <span class="text-dark font-weight-bold small"
+                        >LYMAN STONE AND W. BRADFORD WILCOX</span
+                      >
+                    </p>
+                  </div>
+                  <div
+                    class="vs position-relative d-flex justify-content-center align-items-center"
+                  >
+                    <div class="vs-text position-absolute">VS</div>
+                  </div>
+                  <div class="debate-bottom-border py-2">
+                    <img
+                      class="w-15 float-right border border-danger rounded-circle mr-3"
+                      src="https://d.newsweek.com/en/full/1603120/marina-adshade.webp?w=150&h=150&f=286e1b90c7feb76e551b27815226fa21"
+                      alt="authorimg"
+                    />
+                    <a href="#" class="red-on-hover text-dark font-weight-bold"
+                      >Falling Birthrates Are No Big Deal</a
+                    >
+                    <p class="text-secondary">
+                      BY
+                      <span class="text-dark font-weight-bold small"
+                        >MARINA ADSHADE</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div class="separator"></div>
+                <div class="opinion">
+                  <h6 class="text-secondary">OPINION</h6>
+                  <div class="border-bottom mb-2 pb-sm-3">
+                    <img
+                      class="w-15 float-left mr-3"
+                      src="https://d.newsweek.com/en/full/1602706/alan-dershowitz.webp?w=63&h=63&f=d83ee0f0a2a958ae747f9793d8d73562"
+                      alt="authorimg"
+                    />
+                    <a href="#" class="red-on-hover text-dark font-weight-bold"
+                      >'Annexation' Is a Red Herring—Facts on the Ground Are
+                      What Count</a
+                    >
+                    <p class="text-secondary small font-weight-bold">
+                      BY ALAN DERSHOWITZ
+                    </p>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="border-bottom mb-2 pb-sm-3">
+                    <img
+                      class="w-15 float-left mr-3"
+                      src="https://d.newsweek.com/en/full/1602811/donald-f-mcgahn-ii-schuyler-j.webp?w=63&h=63&f=9acb76aa84b07d8d8680fc3e69f66470"
+                      alt="authorimg"
+                    />
+                    <a href="#" class="red-on-hover text-dark font-weight-bold"
+                      >New Phase in U.S.-China Relations Poses Challenge for the
+                      Private Sector</a
+                    >
+                    <p class="text-secondary small font-weight-bold">
+                      BY DONALD F. MCGAHN II AND SCHUYLER J. SCHOUTEN
+                    </p>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="border-bottom mb-2 pb-sm-3">
+                    <img
+                      class="w-15 float-left mr-3"
+                      src="https://d.newsweek.com/en/full/1590519/claire-finkelstein-richard-w-painter-2.webp?w=63&h=63&f=b6eb5f4ed01ba1b15788dfe7c9045eb3"
+                      alt="authorimg"
+                    />
+                    <a href="#" class="red-on-hover text-dark font-weight-bold"
+                      >The 'Friday Night Massacre' Spells the Downfall of
+                      William Barr</a
+                    >
+                    <p class="text-secondary small font-weight-bold">
+                      BY CLAIRE O. FINKELSTEIN AND RICHARD W. PAINTER
+                    </p>
+                  </div>
+
+                  <div class="border-bottom mb-2 pb-sm-3">
+                    <img
+                      class="w-15 float-left mr-3"
+                      src="https://d.newsweek.com/en/full/1521484/todd-tanner.webp?w=63&h=63&f=a0ef19c7a1eb35eca656458aeb09ffb0"
+                      alt="authorimg"
+                    />
+                    <a href="#" class="red-on-hover text-dark font-weight-bold"
+                      >The GOP's Response to COVID-19 Is a Betrayal of
+                      Conservatism</a
+                    >
+                    <p class="text-secondary small font-weight-bold">
+                      BY TODD TANNER
+                    </p>
+                  </div>
+
+                  <div class="border-bottom mb-2 pb-sm-3">
+                    <img
+                      class="w-15 float-left mr-3"
+                      src="https://d.newsweek.com/en/full/1603169/rev-johnnie-moore-nury-turkel.webp?w=63&h=63&f=afa104009b70ef24c4e9517fef994bd8"
+                      alt="authorimg"
+                    />
+                    <a href="#" class="red-on-hover text-dark font-weight-bold"
+                      >Jews, Muslims and Christians Are All Persecuted in
+                      Europe. It Must Stop Now</a
+                    >
+                    <p>BY REV. JOHNNIE MOORE AND NURY TURKEL</p>
+                  </div>
+
+                  <div class="mb-2">
+                    <img
+                      class="w-15 float-left mr-3"
+                      src="https://d.newsweek.com/en/full/101658/jennifer-weiss-wolf.webp?w=63&h=63&f=0b82c369922ff03b0e424910c2ec3167"
+                      alt="authorimg"
+                    />
+                    <a href="#" class="red-on-hover text-dark font-weight-bold"
+                      >Periods Are a Source of Abuse for Protesters in Police
+                      Custody</a
+                    >
+                    <p class="text-secondary small font-weight-bold">
+                      BY JENNIFER WEISS-WOLF
+                    </p>
+                  </div>
+                </div>
+                <div class="separator"></div>
+                <div class="featured-story d-none d-md-block">
+                  <div class="position-relative">
+                    <img
+                      src="img/cathedral-john-connon-school.jpg"
+                      alt="img-6"
+                    />
+                    <a
+                      href="#"
+                      class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                      >SPONSORED INSIGHT</a
+                    >
+                  </div>
+                  <a
+                    href="#"
+                    class="red-underlined-link text-dark font-weight-bold lead"
+                  >
+                    What is an IB Private Education and Why is it so
+                    Important?</a
+                  >
+                  <p>
+                    The aim of the IB is to offer the best possible
+                    international education for students of all backgrounds and
+                    from every part of the world. Find out more.
+                  </p>
+                </div>
+                <div class="featured-story">
+                  <div class="position-relative">
+                    <img src="img/americas-best-realtors-2020.jpg" alt="" />
+                    <a
+                      href="#"
+                      class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                      >RANKINGS</a
+                    >
+                  </div>
+                  <a
+                    href="#"
+                    class="red-underlined-link text-dark font-weight-bold lead"
+                    >America’s Best Realtors 2020</a
+                  >
+                  <p>
+                    Newsweek partnered with REAL Trends to sort through the data
+                    and provide you with a list of America's Best Real Estate
+                    Professionals
+                  </p>
+                </div>
+                <div class="featured-story">
+                  <div class="position-relative">
+                    <img
+                      src="img/physical-rehabilitation-centers-2020.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <a
+                    href="#"
+                    class="red-underlined-link text-dark font-weight-bold lead"
+                    >Best Physical Rehab Centers</a
+                  >
+                  <p>
+                    Newsweek is partnering with the respected global data
+                    research firm Statista Inc. to establish a ranking of Best
+                    Physical Rehabilitation Centers in the United States 2020.
+                    If you work in this field, please participate in our survey.
+                  </p>
+                </div>
+                <div class="featured-story">
+                  <div class="position-relative">
+                    <img src="img/newsweek-amplify.png" alt="img" />
+                  </div>
+                  <a
+                    href="#"
+                    class="red-underlined-link text-dark font-weight-bold lead"
+                  >
+                    Newsweek AMPLIFY Launches Strategic Partnership Solutions
+                    for Brands</a
+                  >
+                  <p>
+                    Newsweek AMPLIFY, the company's performance marketing
+                    business unit, has launched a new program to empower digital
+                    brands with comprehensive content marketing and advertising
+                    strategies.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="col-lg-4 col-md-6">
+            <h6 class="d-none d-md-block">TOP STORY</h6>
+            <div class="featured-story d-none d-md-block">
+              <div class="position-relative">
+                <img
+                  src="https://d.newsweek.com/en/full/1603694/ron-desantis.jpg"
+                  alt=""
+                />
+                <a
+                  href=""
+                  class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                  >U.S.</a
+                >
+              </div>
+              <a
+                href="#"
+                class="red-underlined-link text-dark font-weight-bold lead"
+                >McConnell Says U.S. Needs 'More Testing, Not Less' After Trump
+                Comments</a
+              >
+              <p>
+                "We all need to scale up," Senate Majority Leader Mitch
+                McConnell (R-KY) said.
+              </p>
+            </div>
+            <div class="separator"></div>
+            <div class="d-md-none d-lg-none">
+              <h6 class="text-secondary">MORE STORIES</h6>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1603364/joe-biden.webp?w=95&h=95&f=62b13f9ff2d01a780ed6f95b79364bdc"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >Biden Leads in 6 Key Swing States Trump Won in 2016</a
+                >
+                <p class="small">
+                  Presumptive Democratic nominee Joe Biden holds a lead in six
+                  key swing states, all of which President Donald Trump won in
+                  2016, according to a new poll.
+                </p>
+              </div>
+              <div class="clearfix mb-3"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1602787/republicans-warm-another-round-stimulus-checks.webp?w=95&h=95&f=6205967ef56a01d4c31599d213993810"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >$1.4B in Coronavirus Stimulus Checks Went to Dead People,
+                  Watchdog Finds</a
+                >
+                <p class="small">
+                  In its first review of the nation's coronavirus response, the
+                  Government Accountability Office identified several issues,
+                  including money going to people who were no longer alive.
+                </p>
+              </div>
+              <div class="clearfix mb-3"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1602529/artists-george.webp?w=95&h=95&f=7995e22ab1f5930bbbe51e917ca735b6"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >The Art of Protest: Artists Create Images in Support of Black
+                  Lives Matter</a
+                >
+                <p class="small">
+                  In addition to numerous protests, marches and memorials, art
+                  has also become another way to stand in solidarity with Black
+                  Lives Matter around the world.
+                </p>
+              </div>
+              <div class="clearfix mb-3"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1596919/sen-tom-cotton-r-ar.webp?w=95&h=95&f=91dce0995c7f4a984f0ff712f4e6c703"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >Arkansas Senator: 'Would You Trust' D.C. Mayors With Governor
+                  Powers?</a
+                >
+                <p class="small">
+                  During a debate over the effort to grant statehood to the
+                  Washington, D.C., Arkansas Senator Tom Cotton questioned
+                  whether DC Mayor Muriel Bowser could be trusted with
+                  gubernatorial powers.
+                </p>
+              </div>
+              <div class="clearfix mb-3"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1603601/mississippi-state-flag.webp?w=95&h=95&f=f925821df51c4a001a51c7b77bcb3315"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >Black Mississippi Mayor Tears Up As He Signs Order To Remove
+                  State Flag</a
+                >
+                <p class="small">
+                  "I began to reminisce about position to be in a position of
+                  the mayor, to be able to take that flag down and I wanted to
+                  do it to bring the people of Laurel together," Mayor Johnny
+                  Magee said of the executive order.
+                </p>
+              </div>
+              <div class="clearfix mb-3"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1603251/devin-nunes.webp?w=95&h=95&f=06acbfd8a77103ad86b6124d7fea8541"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >Devin Nunes Jumps Ship to Parler As Lawsuit Against Twitter
+                  Fails</a
+                >
+                <p class="small">
+                  A judge ruled that Devin Nunes could not sue Twitter over
+                  posts made by users on its platform, which he had said were
+                  defamatory.
+                </p>
+              </div>
+              <div class="clearfix mb-3"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1603275/vladimir-putin.webp?w=95&h=95&f=31360f17122f2fc3d3004fdcb209c068"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >Putin's Alleged Daughters Appear on Website of Exiled Russian
+                  Banker</a
+                >
+                <p class="small">
+                  The identities of the women who are reportedly the children of
+                  the Russian president are akin to a state secret.
+                </p>
+              </div>
+              <div class="clearfix mb-3"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1603231/devos.webp?w=95&h=95&f=642112930fe5edd036565db8b7fb0de2"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >AGs Sue to Block DeVos' Repeal of Obama's Rule Against
+                  For-Profit Colleges</a
+                >
+                <p class="small">
+                  The group of attorneys general said they are "standing up for
+                  students" by challenging the removal of the regulations.
+                </p>
+              </div>
+              <div class="clearfix mb-3"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1603586/face-mask-sign.webp?w=95&h=95&f=f30b0daabfd3afe5f846c395b0616eb6"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >Oregon County Reverses Mask Exemption for People of Color
+                  After Backlash</a
+                >
+                <p class="small">
+                  "We are shocked and appalled at the volume of horrifically
+                  racist commentary we have received regarding this policy
+                  exception," officials said in a statement.
+                </p>
+              </div>
+              <div class="clearfix mb-3"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1603255/blm.webp?w=95&h=95&f=633f4d941c3b5ff7c6e6b30afdbce665"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >Colorado Officials to Examine Elijah McClain's Death in
+                  Police Custody</a
+                >
+                <p class="small">
+                  Elijah McClain died at the age of 23 after an encounter with
+                  police in Aurora, Colorado.
+                </p>
+              </div>
+              <div class="clearfix mb-3"></div>
+              <div class="border-top pt-3 pb-sm-5">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1603510/brandenburg-gate.webp?w=95&h=95&f=e864d9b7b55f8417d587f464121b9d3d"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >Graphs Show How Coronavirus Cases in the U.S. Compare to
+                  Other Countries</a
+                >
+                <p class="small">
+                  Data compiled by the U.S. and European Union show the U.S. has
+                  reported nearly double the number of COVID-19 cases than all
+                  27 countries in the E.U. combined.
+                </p>
+              </div>
+            </div>
+            <div class="separator mt-sm-5"></div>
+            <div class="mid-articles myturn-articles mt-sm-3">
+              <h6 class="text-secondary">MY TURN</h6>
+              <div class="d-md-flex">
+                <div class="mr-md-2 w-100">
+                  <img
+                    src="img/racism-fathers-day-black-lives-matter-father.jpg"
+                    alt="img"
+                  />
+                  <p class="text-secondary">
+                    'I Am A Black Father, It's Impossible to Prepare Your Kids
+                    For Racism'
+                  </p>
+                </div>
+                <div class="mr-md-2 w-100">
+                  <img
+                    src="img/meghan-markle-look-alike-new-jersey.png"
+                    alt="img"
+                  />
+                  <p class="text-secondary">
+                    'I Was Bullied About My Appearance, Now I'm A Meghan Markle
+                    Look-Alike'
+                  </p>
+                </div>
+                <div class="w-100">
+                  <img
+                    src="img/fathers-day-single-mom-motherhood.jpg"
+                    alt="img"
+                  />
+                  <p class="text-secondary">
+                    'I'm a Single Mom, This Is Why I Dread Father's Day'
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mid-articles culture-travel-articles">
+              <h6 class="text-secondary">CULTURE & TRAVEL</h6>
+              <div class="d-md-flex">
+                <div class="mr-md-2 w-100">
+                  <div class="position-relative">
+                    <img
+                      src="https://d.newsweek.com/en/full/1602238/team-lioness.jpg"
+                      alt="img"
+                    />
+                    <h6
+                      class="img-btm-text position-absolute fixed-bottom font-weight-bold px-2"
+                    >
+                      CORONAVIRUS
+                    </h6>
+                  </div>
+                  <p class="text-secondary">
+                    Meet Team Lioness: Female Rangers Deterring Poachers in
+                    Kenya
+                  </p>
+                </div>
+                <div class="mr-md-2 w-100">
+                  <div class="position-relative">
+                    <img
+                      src="https://d.newsweek.com/en/full/1600331/traveler-wears-mask-airport.jpg"
+                      alt="img"
+                    />
+                    <h6
+                      class="img-btm-text position-absolute fixed-bottom font-weight-bold px-2"
+                    >
+                      TRAVEL
+                    </h6>
+                  </div>
+                  <p class="text-secondary">
+                    How Coronavirus Has Impacted Travelers of Color
+                  </p>
+                </div>
+                <div class="mr-md-2 w-100">
+                  <div class="position-relative">
+                    <img
+                      src="https://d.newsweek.com/en/full/1597714/cul-williemays-banner.jpg"
+                      alt="img"
+                    />
+                    <h6
+                      class="img-btm-text position-absolute fixed-bottom font-weight-bold px-2"
+                    >
+                      BASEBALL
+                    </h6>
+                  </div>
+                  <p class="text-secondary">
+                    Willie Mays Explains Why the All-Star Game Meant So Much to
+                    His Generation
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="d-lg-none d-md-none">
+              <div class="sponsored-insight">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1593448/practical-programming.png"
+                    alt="sp"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom font-weight-bold px-2"
+                    >SPONSORED INSIGHT</a
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold lead"
+                  >Want to Learn to Code Online?</a
+                >
+                <p class="small">
+                  If you are thinking about changing career or you have recently
+                  lost your job, this might be the time to think about a career
+                  in coding.
+                </p>
+              </div>
+
+              <div class="newsletter border bg-light p-4 w-75 my-4 mx-auto">
+                <form class="form-signin">
+                  <div class="d-flex align-items-center mb-2">
+                    <img
+                      class="w-15 bg-danger mx-3 d-block"
+                      src="https://g.newsweek.com/www/images/logo-n1.svg"
+                      alt="img"
+                    />
+                    <p class="p-0 m-0 font-weight-bold">
+                      START YOUR DAY WITH OUR TOP 5 ARTICLES
+                    </p>
+                  </div>
+                  <div class="form-label-group">
+                    <input
+                      type="email"
+                      class="form-control h-25 mb-2"
+                      placeholder="Email address"
+                      required=""
+                    />
+                  </div>
+                  <button
+                    class="btn btn-block bg-danger h-25 text-white font-weight-bold"
+                    type="submit"
+                  >
+                    Sign in >
+                  </button>
+                </form>
+              </div>
+              <div class="sponsored-insight border mb-4">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1592802/addiction-treatment-centers-2020.jpg?w=500&amp;h=333&amp;l=43&amp;t=50&amp;f=592690018959dfb67278ecc6236ba576"
+                    alt="sp"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom font-weight-bold px-2"
+                    >RANKINGS</a
+                  >
+                </div>
+                <div class="p-3">
+                  <a
+                    href="#"
+                    class="red-underlined-link text-dark font-weight-bold lead"
+                    >Best Infection Prevention Products</a
+                  >
+                  <p class="small">
+                    During the coronavirus outbreak, health care is more
+                    important than ever. In Newsweek's first Best Health Care
+                    series, we highlight the best infection prevention products.
+                  </p>
+                </div>
+              </div>
+
+              <div class="sponsored-insight border mb-4">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1587568/infection-prevention-products-banner.jpg?w=500&h=333&f=c96d696a017681c45d2f464a2ae0e23d"
+                    alt="sp"
+                  />
+                </div>
+                <div class="p-3">
+                  <a
+                    href="#"
+                    class="red-underlined-link text-dark font-weight-bold lead"
+                    >Best Addiction Treatment Centers</a
+                  >
+                  <p class="small">
+                    Newsweek and Statista are partnering to establish a ranking
+                    of Best Addiction Treatment Centers in the United States. If
+                    you work in this field, this survey is for you.
+                  </p>
+                </div>
+              </div>
+
+              <div class="sponsored-insight border mb-4">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1601211/worlds-best-specialized-hospitals-2021.png?w=500&amp;h=333&amp;f=e524d3ed0f99eab2e99d029b825bb4e8"
+                    alt="sp"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom font-weight-bold px-2"
+                    >SURVEY</a
+                  >
+                </div>
+                <div class="p-3">
+                  <a
+                    href="#"
+                    class="red-underlined-link text-dark font-weight-bold lead"
+                    >World's Best Specialized Hospitals 2021</a
+                  >
+                  <p class="small">
+                    Newsweek is partnering with the respected global data
+                    research firm Statista Inc. to establish a ranking of
+                    World's Best Specialized Hospitals 2021. If you work in this
+                    field, please participate in our survey.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="more-stories d-none d-md-block">
+              <h6 class="text-secondary">MORE STORIES</h6>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1603364/joe-biden.webp?w=95&h=95&f=62b13f9ff2d01a780ed6f95b79364bdc"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >Biden Leads in 6 Key Swing States Trump Won in 2016</a
+                >
+                <p class="small">
+                  Presumptive Democratic nominee Joe Biden holds a lead in six
+                  key swing states, all of which President Donald Trump won in
+                  2016, according to a new poll.
+                </p>
+              </div>
+              <div class="clearfix"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1602787/republicans-warm-another-round-stimulus-checks.webp?w=95&h=95&f=6205967ef56a01d4c31599d213993810"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >$1.4B in Coronavirus Stimulus Checks Went to Dead People,
+                  Watchdog Finds</a
+                >
+                <p class="small">
+                  In its first review of the nation's coronavirus response, the
+                  Government Accountability Office identified several issues,
+                  including money going to people who were no longer alive.
+                </p>
+              </div>
+              <div class="clearfix"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1602529/artists-george.webp?w=95&h=95&f=7995e22ab1f5930bbbe51e917ca735b6"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >The Art of Protest: Artists Create Images in Support of Black
+                  Lives Matter</a
+                >
+                <p class="small">
+                  In addition to numerous protests, marches and memorials, art
+                  has also become another way to stand in solidarity with Black
+                  Lives Matter around the world.
+                </p>
+              </div>
+              <div class="clearfix"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1596919/sen-tom-cotton-r-ar.webp?w=95&h=95&f=91dce0995c7f4a984f0ff712f4e6c703"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >Arkansas Senator: 'Would You Trust' D.C. Mayors With Governor
+                  Powers?</a
+                >
+                <p class="small">
+                  During a debate over the effort to grant statehood to the
+                  Washington, D.C., Arkansas Senator Tom Cotton questioned
+                  whether DC Mayor Muriel Bowser could be trusted with
+                  gubernatorial powers.
+                </p>
+              </div>
+              <div class="clearfix"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1603601/mississippi-state-flag.webp?w=95&h=95&f=f925821df51c4a001a51c7b77bcb3315"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >Black Mississippi Mayor Tears Up As He Signs Order To Remove
+                  State Flag</a
+                >
+                <p class="small">
+                  "I began to reminisce about position to be in a position of
+                  the mayor, to be able to take that flag down and I wanted to
+                  do it to bring the people of Laurel together," Mayor Johnny
+                  Magee said of the executive order.
+                </p>
+              </div>
+              <div class="clearfix"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1603251/devin-nunes.webp?w=95&h=95&f=06acbfd8a77103ad86b6124d7fea8541"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >Devin Nunes Jumps Ship to Parler As Lawsuit Against Twitter
+                  Fails</a
+                >
+                <p class="small">
+                  A judge ruled that Devin Nunes could not sue Twitter over
+                  posts made by users on its platform, which he had said were
+                  defamatory.
+                </p>
+              </div>
+              <div class="clearfix"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1603275/vladimir-putin.webp?w=95&h=95&f=31360f17122f2fc3d3004fdcb209c068"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >Putin's Alleged Daughters Appear on Website of Exiled Russian
+                  Banker</a
+                >
+                <p class="small">
+                  The identities of the women who are reportedly the children of
+                  the Russian president are akin to a state secret.
+                </p>
+              </div>
+              <div class="clearfix"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1603231/devos.webp?w=95&h=95&f=642112930fe5edd036565db8b7fb0de2"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >AGs Sue to Block DeVos' Repeal of Obama's Rule Against
+                  For-Profit Colleges</a
+                >
+                <p class="small">
+                  The group of attorneys general said they are "standing up for
+                  students" by challenging the removal of the regulations.
+                </p>
+              </div>
+              <div class="clearfix"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1603586/face-mask-sign.webp?w=95&h=95&f=f30b0daabfd3afe5f846c395b0616eb6"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >Oregon County Reverses Mask Exemption for People of Color
+                  After Backlash</a
+                >
+                <p class="small">
+                  "We are shocked and appalled at the volume of horrifically
+                  racist commentary we have received regarding this policy
+                  exception," officials said in a statement.
+                </p>
+              </div>
+              <div class="clearfix"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1603255/blm.webp?w=95&h=95&f=633f4d941c3b5ff7c6e6b30afdbce665"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >Colorado Officials to Examine Elijah McClain's Death in
+                  Police Custody</a
+                >
+                <p class="small">
+                  Elijah McClain died at the age of 23 after an encounter with
+                  police in Aurora, Colorado.
+                </p>
+              </div>
+              <div class="clearfix"></div>
+              <div class="border-top pt-3">
+                <img
+                  class="w-25 float-left mr-2"
+                  src="https://d.newsweek.com/en/full/1603510/brandenburg-gate.webp?w=95&h=95&f=e864d9b7b55f8417d587f464121b9d3d"
+                  alt="img"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold"
+                  >Graphs Show How Coronavirus Cases in the U.S. Compare to
+                  Other Countries</a
+                >
+                <p class="small">
+                  Data compiled by the U.S. and European Union show the U.S. has
+                  reported nearly double the number of COVID-19 cases than all
+                  27 countries in the E.U. combined.
+                </p>
+              </div>
+            </div>
+          </section>
+          <div class="clearfix"></div>
+          <section class="col-lg-4 col-md-12 mt-md-2">
+            <div class="debate d-none d-md-block">
+              <h6 class="text-secondary">THE DEBATE</h6>
+              <div class="debate-top-border py-2">
+                <img
+                  class="w-15 float-left border border-danger rounded-circle mr-3"
+                  src="https://d.newsweek.com/en/full/1603135/lyman-stone-w-bradford-wilcox.webp?w=150&h=150&f=d1dab88c21801f4aeeaef829ccbf2f03"
+                  alt="authorimg"
+                />
+                <a href="#" class="red-on-hover text-dark font-weight-bold"
+                  >Empty Cradles Means a Bleaker Future</a
+                >
+                <p class="text-secondary">
+                  BY
+                  <span class="text-dark font-weight-bold small"
+                    >LYMAN STONE AND W. BRADFORD WILCOX</span
+                  >
+                </p>
+              </div>
+              <div
+                class="vs position-relative d-flex justify-content-center align-items-center"
+              >
+                <div class="vs-text position-absolute">VS</div>
+              </div>
+              <div class="debate-bottom-border py-2">
+                <img
+                  class="w-15 float-right border border-danger rounded-circle mr-3"
+                  src="https://d.newsweek.com/en/full/1603120/marina-adshade.webp?w=150&h=150&f=286e1b90c7feb76e551b27815226fa21"
+                  alt="authorimg"
+                />
+                <a href="#" class="red-on-hover text-dark font-weight-bold"
+                  >Falling Birthrates Are No Big Deal</a
+                >
+                <p class="text-secondary">
+                  BY
+                  <span class="text-dark font-weight-bold small"
+                    >MARINA ADSHADE</span
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="separator d-none"></div>
+            <div class="opinion d-none d-md-block mt-md-4">
+              <h6 class="text-secondary">OPINION</h6>
+              <div class="border-bottom mb-1 py-md-3 py-lg-0">
+                <img
+                  class="w-15 float-left mr-3"
+                  src="https://d.newsweek.com/en/full/1602706/alan-dershowitz.webp?w=63&h=63&f=d83ee0f0a2a958ae747f9793d8d73562"
+                  alt="authorimg"
+                />
+               <div class=" d-flex flex-column">
+                  <a href="#" class="red-on-hover text-dark font-weight-bold">'Annexation' Is a Red Herring—Facts on the Ground Are What
+                    Count</a>
+                  <p class="text-secondary small font-weight-bold">
+                    BY ALAN DERSHOWITZ
+                  </p>
+               </div>
+              </div>
+
+              <div class="border-bottom mb-1 py-md-3 py-lg-0 pt-lg-2">
+                <img
+                  class="w-15 float-left mr-3"
+                  src="https://d.newsweek.com/en/full/1602811/donald-f-mcgahn-ii-schuyler-j.webp?w=63&h=63&f=9acb76aa84b07d8d8680fc3e69f66470"
+                  alt="authorimg"
+                />
+                <div class="d-flex flex-column ">
+                  <a href="#" class="red-on-hover text-dark font-weight-bold">New Phase in U.S.-China Relations Poses Challenge for the
+                    Private Sector</a>
+                  <p class="text-secondary small font-weight-bold">
+                    BY DONALD F. MCGAHN II AND SCHUYLER J. SCHOUTEN
+                  </p>
+                </div>
+              </div>
+
+              <div class="border-bottom mb-1 py-md-3 py-lg-0 pt-lg-2">
+                <img
+                  class="w-15 float-left mr-3"
+                  src="https://d.newsweek.com/en/full/1590519/claire-finkelstein-richard-w-painter-2.webp?w=63&h=63&f=b6eb5f4ed01ba1b15788dfe7c9045eb3"
+                  alt="authorimg"
+                />
+                <div class="d-flex flex-column ">
+                  <a href="#" class="red-on-hover text-dark font-weight-bold">The 'Friday Night Massacre' Spells the Downfall of William
+                    Barr</a>
+                  <p class="text-secondary small font-weight-bold">
+                    BY CLAIRE O. FINKELSTEIN AND RICHARD W. PAINTER
+                  </p>
+                </div>
+              </div>
+
+              <div class="border-bottom mb-2 py-md-3 py-lg-0 pt-lg-2">
+                <img
+                  class="w-15 float-left mr-3"
+                  src="https://d.newsweek.com/en/full/1521484/todd-tanner.webp?w=63&h=63&f=a0ef19c7a1eb35eca656458aeb09ffb0"
+                  alt="authorimg"
+                />
+                <div class="d-flex flex-column">
+                  <a href="#" class="red-on-hover text-dark font-weight-bold">The GOP's Response to COVID-19 Is a Betrayal of
+                    Conservatism</a>
+                  <p class="text-secondary small font-weight-bold">
+                    BY TODD TANNER
+                  </p>
+                </div>
+              </div>
+
+              <div class="border-bottom mb-2 py-md-3 py-lg-0 pt-lg-2">
+                <img
+                  class="w-15 float-left mr-3"
+                  src="https://d.newsweek.com/en/full/1603169/rev-johnnie-moore-nury-turkel.webp?w=63&h=63&f=afa104009b70ef24c4e9517fef994bd8"
+                  alt="authorimg"
+                />
+                <div class=" d-flex flex-column">
+                  <a href="#" class="red-on-hover text-dark font-weight-bold">Jews, Muslims and Christians Are All Persecuted in Europe.
+                    It
+                    Must Stop Now</a>
+                  <p class="text-secondary small font-weight-bold">BY REV. JOHNNIE MOORE AND NURY TURKEL</p>
+                </div>
+              </div>
+
+              <div class="mb-2 mb-md-5 pt-lg-2">
+                <img
+                  class="w-15 float-left mr-3"
+                  src="https://d.newsweek.com/en/full/101658/jennifer-weiss-wolf.webp?w=63&h=63&f=0b82c369922ff03b0e424910c2ec3167"
+                  alt="authorimg"
+                />
+                <div class=" d-flex flex-column">
+                  <a href="#" class="red-on-hover text-dark font-weight-bold">Periods Are a Source of Abuse for Protesters in Police
+                    Custody</a>
+                  <p class="text-secondary small font-weight-bold">
+                    BY JENNIFER WEISS-WOLF
+                  </p>
+                </div>
+              </div>
+
+              <div class="separator"></div>
+
+              <div class="sponsored-insight fixed-width my-0 mx-auto">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1593448/practical-programming.png"
+                    alt="sp"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom font-weight-bold px-2"
+                    >SPONSORED INSIGHT</a
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold lead"
+                  >Want to Learn to Code Online?</a
+                >
+                <p class="small">
+                  If you are thinking about changing career or you have recently
+                  lost your job, this might be the time to think about a career
+                  in coding.
+                </p>
+              </div>
+
+              <div
+                class="newsletter border bg-light p-4 my-4 mx-auto fixed-width"
+              >
+                <form class="form-signin">
+                  <div class="d-flex align-items-center mb-2">
+                    <img
+                      class="w-15 bg-danger mx-3 d-block"
+                      src="https://g.newsweek.com/www/images/logo-n1.svg"
+                      alt="img"
+                    />
+                    <p class="p-0 m-0 font-weight-bold">
+                      START YOUR DAY WITH OUR TOP 5 ARTICLES
+                    </p>
+                  </div>
+                  <div class="form-label-group">
+                    <input
+                      type="email"
+                      class="form-control h-25 mb-2"
+                      placeholder="Email address"
+                      required=""
+                    />
+                  </div>
+                  <button
+                    class="btn btn-block bg-danger h-25 text-white font-weight-bold"
+                    type="submit"
+                  >
+                    Sign in >
+                  </button>
+                </form>
+              </div>
+              <div class="sponsored-insight border mb-4 fixed-width mx-auto">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1592802/addiction-treatment-centers-2020.jpg?w=500&amp;h=333&amp;l=43&amp;t=50&amp;f=592690018959dfb67278ecc6236ba576"
+                    alt="sp"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom font-weight-bold px-2"
+                    >RANKINGS</a
+                  >
+                </div>
+                <div class="p-3">
+                  <a
+                    href="#"
+                    class="red-underlined-link text-dark font-weight-bold lead"
+                    >Best Infection Prevention Products</a
+                  >
+                  <p class="small">
+                    During the coronavirus outbreak, health care is more
+                    important than ever. In Newsweek's first Best Health Care
+                    series, we highlight the best infection prevention products.
+                  </p>
+                </div>
+              </div>
+
+              <div class="sponsored-insight border mb-4 d-md-none d-lg-none">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1587568/infection-prevention-products-banner.jpg?w=500&h=333&f=c96d696a017681c45d2f464a2ae0e23d"
+                    alt="sp"
+                  />
+                </div>
+                <div class="p-3">
+                  <a
+                    href="#"
+                    class="red-underlined-link text-dark font-weight-bold lead"
+                    >Best Addiction Treatment Centers</a
+                  >
+                  <p class="small">
+                    Newsweek and Statista are partnering to establish a ranking
+                    of Best Addiction Treatment Centers in the United States. If
+                    you work in this field, this survey is for you.
+                  </p>
+                </div>
+              </div>
+
+              <div class="sponsored-insight border mb-4 fixed-width mx-auto">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1601211/worlds-best-specialized-hospitals-2021.png?w=500&amp;h=333&amp;f=e524d3ed0f99eab2e99d029b825bb4e8"
+                    alt="sp"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom font-weight-bold px-2"
+                    >SURVEY</a
+                  >
+                </div>
+                <div class="p-3">
+                  <a
+                    href="#"
+                    class="red-underlined-link text-dark font-weight-bold lead"
+                    >World's Best Specialized Hospitals 2021</a
+                  >
+                  <p class="small">
+                    Newsweek is partnering with the respected global data
+                    research firm Statista Inc. to establish a ranking of
+                    World's Best Specialized Hospitals 2021. If you work in this
+                    field, please participate in our survey.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="separator"></div>
+          <div class="in-the-magazine mid-container">
+            <div class="row my-3 mx-auto border-bottom pb-2">
+              <div
+                class="col-12 col-md-12 d-flex align-items-center justify-content-center w-50"
+              >
+                <img
+                  class="w-15 bg-danger mx-3 d-block editors-pick-logo"
+                  src="https://g.newsweek.com/www/images/logo-n1.svg"
+                  alt="img"
+                />
+                <h6 class="font-weight-bold p-0">IN THE MAGAZINE</h6>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3 mb-3 d-md-flex flex-md-column">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1605463/us-cover-july-10-17.jpg"
+                    alt="img"
+                  />
+                  <a
+                    href="#"
+                    class="d-block img-btm-text position-absolute fixed-bottom font-weight-bold px-1 text-danger"
+                    >JULY 3 ISSUE</a
+                  >
+                </div>
+                <div>
+                  <button
+                    class="btn my-0 mx-auto w-100 font-weight-bold bg-light"
+                  >
+                    SEE ALL FEATURES >
+                  </button> 
+                </div>
+              </div>
+              
+              <div class="col-md-3 mb-3 d-md-flex flex-md-column">
+                <img
+                  src="https://d.newsweek.com/en/full/1601360/wesley-lowery-feature.webp?w=466&h=311&l=51&t=38&q=90&f=35548466efd24acf92f5967261d3c39b"
+                  alt="img"
+                  class="flex-fill"
+                />
+                <h6 class="my-2 w-fit-content text-danger font-weight-bold">
+                  <span class="bg-danger p-1 mr-2 text-white">COVER</span>U.S.
+                </h6>
+                <a
+                  href="#"
+                  class="text-dark font-weight-bold red-underlined-link"
+                  >Police Reform Alone Won't Stop Another George Floyd from
+                  Being Murdered</a
+                >
+              </div>
+
+              <div class="col-md-3 mb-3 d-md-flex flex-md-column">
+                <img
+                  src="https://d.newsweek.com/en/full/1601327/ferguson-ron-johnson-michael-brown-demonstrations-shooting.webp?w=466&h=311&q=90&f=1dca4559732aa57f4dccf9e40aadc1cf"
+                  alt="img"
+                  class="flex-fill"
+                />
+                <h6 class="my-2 w-fit-content text-danger font-weight-bold">
+                  <span class="bg-danger p-1 mr-2 text-white">FEATURES</span
+                  >OPINION
+                </h6>
+                <a href="#" class="text-dark font-weight-bold"
+                  >Check-the-Box Training Won't Work. Communities Of Color Must
+                  Drive Policing</a
+                >
+              </div>
+
+              <div class="col-md-3 mb-3 d-md-flex flex-md-column">
+                <img
+                  src="https://d.newsweek.com/en/full/1588468/mark-cuban.webp?w=466&h=311&q=90&f=3296bc03ee48b0ac51973f2bc78e161e"
+                  alt="img"
+                  class="flex-fill"
+                />
+                <h6 class="my-2 w-fit-content text-danger font-weight-bold">
+                  <span class="bg-danger p-1 mr-2 text-white">PERISCOPE</span
+                  >BUSINESS
+                </h6>
+                <a href="#" class="text-dark font-weight-bold"
+                  >Mark Cuban talks race and robotics</a
+                >
+              </div>
+
+              <div class="col-md-3 mb-3 d-md-flex flex-md-column">
+                <img
+                  src="https://d.newsweek.com/en/full/1596854/us-constitution.webp?w=466&h=311&q=90&f=22d7a5b8c89b8236ff513abf728e3578"
+                  alt="img"
+                  class="flex-fill"
+                />
+                <h6 class="my-2 w-fit-content text-danger font-weight-bold">
+                  <span class="bg-danger p-1 mr-2 text-white">PERISCOPE</span
+                  >CULTURE
+                </h6>
+                <a href="#" class="text-dark font-weight-bold"
+                  >Governors Can't Pick and Choose Constitutional Rights</a
+                >
+              </div>
+
+              <div class="col-md-3 mb-3 d-md-flex flex-md-column">
+                <img
+                  src="https://d.newsweek.com/en/full/1603534/cul-khruangbin.webp?w=466&h=311&l=50&t=18&q=90&f=28d42fbf1ebc458d787005a45889976a"
+                  alt="img"
+                  class="flex-fill"
+                />
+                <h6 class="my-2 w-fit-content text-danger font-weight-bold">
+                  <span class="bg-danger p-1 mr-2 text-white">DOWNTIME</span
+                  >CULTURE
+                </h6>
+                <a href="#" class="text-dark font-weight-bold"
+                  >Khruangbin's New Album Mordechai</a
+                >
+              </div>
+
+              <div class="col-md-3 mb-3 d-md-flex flex-md-column">
+                <img
+                  src="https://d.newsweek.com/en/full/1600430/cul-ps-healy.webp?w=466&h=311&l=51&t=32&q=90&f=d5589da2fd0f35695696e7d0769aac03"
+                  alt="img"
+                  class="flex-fill"
+                />
+                <h6 class="my-2 w-fit-content text-danger font-weight-bold">
+                  <span class="bg-danger p-1 mr-2 text-white">DOWNTIME</span
+                  >CULTURE
+                </h6>
+                <a href="#" class="text-dark font-weight-bold"
+                  >Matty Healy On The 1975's New Album 'Notes On A Conditional
+                  Form'</a
+                >
+              </div>
+
+              <div class="col-md-3 d-md-flex flex-md-column">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1602975/freedom.jpg?w=480&amp;h=320&amp;l=50&amp;t=50&amp;xy=1-310-1792-1504&amp;f=8fae4a165d8bfd338300be17a0ad7fbc"
+                    alt="img"
+                    class="flex-fill"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom text-white bg-danger font-weight-bold px-2"
+                    >IN FOCUS</a
+                  >
+                </div>
+                <h6 class="py-2">FREEDOM</h6>
+              </div>
+            </div>
+          </div>
+          <div class="separator"></div>
+          <section class="editors-pick mid-container">
+            <div class="row w-100 my-3 mx-auto border-bottom pb-2">
+              <div
+                class="col-12 d-flex align-items-center justify-content-center w-50"
+              >
+                <img
+                  class="w-15 bg-danger mx-3 d-block p-0 editors-pick-logo"
+                  src="https://g.newsweek.com/www/images/logo-n1.svg"
+                  alt="img"
+                />
+                <h6 class="font-weight-bold p-0">EDITOR'S PICK</h6>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 col-lg-3">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1602965/president-donald-trump.webp?w=397&h=265&f=b8925fa098201742e1d82a70c8736a53"
+                    alt="img"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                    >TECH&SCIENCE</a
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold lead"
+                  >Trump 2020 App is Scooping up Massive Amounts of Data, Cyber
+                  Experts Warn</a
+                >
+                <p>
+                  "It does appear to be more like a spy in a pocket rather than
+                  an app to help make an informed decision who to vote for," one
+                  security commentator told Newsweek.
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1603186/william-barr-attorney-general.webp?w=397&h=265&f=3cb78d6290403cbbe72ee131defe3e5c"
+                    alt="img"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                    >U.S.</a
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold lead"
+                  >House Judiciary Chair Reverses Course, Is 'Looking Into'
+                  Impeaching Barr</a
+                >
+                <p>
+                  House Judiciary Committee Chairman Jerry Nadler said Attorney
+                  General William Barr "has shown us that there is one set of
+                  rules for the President's friends, and another set of rules
+                  for the rest of us."
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1603160/texas-reports-record-number-cases.webp?w=397&h=265&f=cb2f7a1fa439a5d893615badb7c54d76"
+                    alt="img"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                    >U.S.</a
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold lead"
+                  >Governor Says Texas Has 'Massive' Outbreak as New Cases Again
+                  Exceed 5,000</a
+                >
+                <p>
+                  State health officials reported 5,551 new COVID-19 cases on
+                  Wednesday, bringing the state's total number of cases to
+                  125,921.
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1601477/washington-dc-george-floyd-protest-may-2020.webp?w=397&h=265&f=ddd43d4688938c69aa2e63d8af692483"
+                    alt="img"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                    >U.S.</a
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold lead"
+                  >Trump Demands End to Flag Burning as Protests Rage, Statues
+                  Fall</a
+                >
+                <p>
+                  President Donald Trump has revived his calls for a
+                  Congressional ban on burning the American flag amid ongoing
+                  demonstrations.
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1603022/sleep-bed-couple-getty-stock.webp?w=397&h=265&f=2e195ad90ff96b1c884fdaa4e76e05b9"
+                    alt="img"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                    >HEALTH</a
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold lead"
+                  >Couples in Deep Relationships Have Synchronised Sleep Phases,
+                  Study Finds</a
+                >
+                <p>
+                  The research involved 12 couples who slept in a lab for four
+                  nights.
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1603111/us-ballistic-missile-test-inf-treaty.webp?w=397&h=265&f=fa14b05f83579557a7ee7f51e378484c"
+                    alt="img"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                    >WORLD</a
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold lead"
+                  >China Warns It Will Act if U.S. Deploys New Missiles to Asian
+                  Allies</a
+                >
+                <p>
+                  "If the U.S. insists on the deployment, it will be a
+                  provocation at China's doorstep. China will never sit idle and
+                  will take all necessary countermeasures," a Chinese military
+                  spokesperson warned.
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1602933/saharan-dust.webp?w=397&h=265&f=817a31bb744738c1a66e690d9f2e2fac"
+                    alt="img"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                    >TECH&SCIENCE</a
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold lead"
+                  >Sahara Dust Storm Tracker: Where Is the Plume Now and What Is
+                  Its Path?</a
+                >
+                <p>
+                  The dust has brought hazy skies and poor air quality to large
+                  parts of the Caribbean.
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1602886/mark-zuckerberg.webp?w=397&h=265&f=ea015e28d24a2cc15c0313719847168a"
+                    alt="img"
+                  />
+                  <a
+                    href="#"
+                    class="img-btm-text position-absolute fixed-bottom text-danger font-weight-bold px-2"
+                    >TECH&SCIENCE</a
+                  >
+                </div>
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold lead"
+                  >Facebook Acts Faster on Hate Speech Than Twitter and YouTube,
+                  Report Shows</a
+                >
+                <p>
+                  "While we recognize we have more to do, these results suggest
+                  we are moving in the right direction and have systems in place
+                  which continue to lead our industry," one Facebook executive
+                  said.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="us-section border-top pt-3 mt-3 mid-container">
+            <div class="row">
+              <div class="col-12 d-flex">
+                <h5 class="text-danger font-weight-bold">U.S.</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 d-flex flex-column w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1585758/joe-exotic.webp?w=397&h=265&f=1c0bc6ff54b033ddbf539195d726955f"
+                  alt="img"
+                  class=" flex-lg-grow-1"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold my-2"
+                  >'Tiger King' Zoo Under Investigation After Photos Showing
+                  Injured Big Cats</a
+                >
+              </div>
+
+              <div class="col-md-4 d-flex flex-column mb-2 w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1603726/greg-abbott.webp?w=397&h=265&f=5b9e5149278a28a3b19d7117a1d7d454"
+                  alt="img"
+                  class=" flex-lg-grow-1"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold my-2"
+                  >U.S. Coronavirus Cases Hit One-Day Record Sweeping Across 3
+                  Largest States</a
+                >
+              </div>
+
+              <div class="col-md-4 d-flex flex-column">
+                <div
+                  class="mb-2 border-bottom pb-2 d-flex align-items-md-start"
+                >
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1605148/coronavirus-india.webp?w=95&h=95&f=ea287109ab183613d37f1e5f63210e31"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold">
+                    Colorado Latest State to Close Bars and Nightclubs Due to
+                    Coronavirusy</a
+                  >
+                </div>
+
+                <div
+                  class="mb-2 border-bottom pb-2 d-flex align-items-md-start"
+                >
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1603703/tampa-cops.webp?w=95&h=95&f=88853864f5729767b1dfac17eada91fb"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >5 Florida Cops Who Fired 125 Rounds to Kill a Black Man
+                    Won't Face Charges</a
+                  >
+                </div>
+
+                <div class="mb-2 pb-2 d-flex align-items-md-start">
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1603691/department-veteran-affairs-coronavirus-covid-19.webp?w=95&h=95&f=32694b4b8f71906162eaa6d6fa6ef379"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >Coronavirus Cases Among Veterans Have Doubled Since Start
+                    of June</a
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="world-section border-top pt-3 mt-3 mid-container">
+            <div class="row">
+              <div class="col-12 d-flex">
+                <h5 class="text-danger font-weight-bold">World</h5>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 d-flex flex-column my-2">
+                <img
+                  src="https://d.newsweek.com/en/full/1597589/prince-andrew-countess-mountbatten-burma-funeral.webp?w=397&h=265&f=1fc3306a60214ea84f8f1e33378ad783"
+                  alt="img"
+                  class=" flex-lg-grow-1"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold my-2"
+                  >Prince Andrew Should Lose Royal Titles, Face Extradition Over
+                  Epstein: Poll</a
+                >
+              </div>
+
+              <div class="col-md-4 d-flex flex-column mb-2">
+                <img
+                  src="https://d.newsweek.com/en/full/1603472/south-north-korea-war-anniversary-peace.webp?w=397&h=265&f=072ae9ef4725612b1ed547d68db4642f"
+                  alt="img"
+                  class=" flex-lg-grow-1"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold my-2"
+                  >South Korea Wants Peace, Less Certain About Unification 70
+                  Years After War</a
+                >
+              </div>
+
+              <div class="col-md-4 d-flex flex-column mb-2">
+                <div
+                  class="mb-2 border-bottom pb-2 d-flex align-items-md-start"
+                >
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1603403/bournemouth-beach-during-uk-heatwave.webp?w=95&h=95&f=95913b4c93d669cbff53f16ee83e7a1b"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >'Major incident' Declared as Thousands Visit Beaches in
+                    Southern England</a
+                  >
+                </div>
+                <div
+                  class="mb-2 border-bottom pb-2 d-flex align-items-md-start"
+                >
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1603403/bournemouth-beach-during-uk-heatwave.webp?w=95&h=95&f=95913b4c93d669cbff53f16ee83e7a1b"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >'Major incident' Declared as Thousands Visit Beaches in
+                    Southern England</a
+                  >
+                </div>
+
+                <div class="mb-2 pb-2 d-flex align-items-md-start">
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1603343/donald-trump-xi-jinping-china-us-competition.webp?w=95&h=95&f=f8baf583cf3a5394f22a2e15b9aa3e77"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >Amid a U.S-China 'Cold War,' Here's Where Conflicts Could
+                    Break Out</a
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="business-section border-top pt-3 mt-3 mid-container">
+            <div class="row">
+              <div class="col-12 d-flex">
+                <h5 class="text-danger font-weight-bold">Business</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 d-flex flex-column mb-2">
+                <img
+                  src="https://d.newsweek.com/en/full/1602176/larry-kudlow-trump-second-stimulus.webp?w=397&h=265&f=e037e2c5283679365a23206dc1e2468f"
+                  alt="img"
+                  class=" flex-lg-grow-1"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold my-2"
+                >
+                  Stimulus Will Help Businesses, Not Individuals: White House
+                  Adviser</a
+                >
+              </div>
+
+              <div class="col-md-4 d-flex flex-column mb-2">
+                <img
+                  src="https://d.newsweek.com/en/full/1603472/south-north-korea-war-anniversary-peace.webp?w=397&h=265&f=072ae9ef4725612b1ed547d68db4642f"
+                  alt="img"
+                  class=" flex-lg-grow-1"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold my-2"
+                  >False stories in effort to delegitimize Black Lives Matter</a
+                >
+              </div>
+
+              <div
+                class="col-md-4 d-flex flex-column mb-2 d-flex align-items-md-start"
+              >
+                <div
+                  class="mb-2 border-bottom pb-2 d-flex align-items-md-start"
+                >
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1598669/hank-column-time-square.webp?w=95&h=95&l=52&t=41&f=faf94201868b3753d0776b285a74d604"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >McConnell Could Lose Senate Seat If He Doesn't Deliver
+                    Bailout to Kentucky</a
+                  >
+                </div>
+
+                <div
+                  class="mb-2 border-bottom pb-2 d-flex align-items-md-start"
+                >
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1598669/hank-column-time-square.webp?w=95&h=95&l=52&t=41&f=faf94201868b3753d0776b285a74d604"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >McConnell Could Lose Senate Seat If He Doesn't Deliver
+                    Bailout to Kentucky</a
+                  >
+                </div>
+
+                <div class="mb-2 pb-2 d-flex align-items-md-start">
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1595761/donald-trump-jr-cpac-conservatives-president-son.webp?w=95&h=95&f=0a503f0b110eccf3dc523b6bbd8d8456"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >Don Jr. Set His Sights on Big Tech Months Before His
+                    Father's Twitter Feud</a
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="tech-section border-top pt-3 mt-3 mid-container">
+            <div class="row">
+              <div class="col-12 d-flex">
+                <h5 class="text-danger font-weight-bold">Tech & Science</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 d-flex flex-column">
+                <img
+                  src="https://d.newsweek.com/en/full/1603806/facebook-logo.webp?w=397&h=265&f=70ec4c45a20d4f11b48172d8b80f1b08"
+                  alt="img"
+                  class=" flex-lg-grow-1"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold my-2"
+                  >Facebook Has a New Warning Prompt for Users Who Are Sharing
+                  Old News</a
+                >
+              </div>
+
+              <div class="col-md-4 d-flex flex-column">
+                <img
+                  src="https://d.newsweek.com/en/full/1603800/lightning.webp?w=397&h=265&f=459f282f512f9075f6573239774b623d"
+                  alt="img"
+                  class=" flex-lg-grow-1"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold my-2"
+                  >Huge Lightning 'Megaflash' in Brazil Breaks Record for
+                  Longest Strike</a
+                >
+              </div>
+
+              <div class="col-md-4 d-flex flex-column">
+                <div
+                  class="mb-2 border-bottom pb-2 d-flex align-items-md-start"
+                >
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1604883/antarctica.webp?w=95&h=95&f=61ba474d36a69874902ee02ed6f2b367"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >Messyweekend Sunglasses Review: Stylish Eyewear at
+                    Dollar-Friendly Price</a
+                  >
+                </div>
+                <div
+                  class="mb-2 border-bottom pb-2 d-flex align-items-md-start"
+                >
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1604883/antarctica.webp?w=95&h=95&f=61ba474d36a69874902ee02ed6f2b367"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >Messyweekend Sunglasses Review: Stylish Eyewear at
+                    Dollar-Friendly Price</a
+                  >
+                </div>
+
+                <div class="mb-2 pb-2 d-flex align-items-md-start">
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1603452/cracked-building-permafrost-yakutsk-russia.webp?w=95&h=95&f=0bfecfd3b69d64ada49a7bd0151d7b56"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >Siberia Heatwave Sees Buildings Split in Two As Permafrost
+                    Thaws</a
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="culture-section border-top pt-3 mt-3 mid-container">
+            <div class="row">
+              <div class="col-12 d-flex">
+                <h5 class="text-danger font-weight-bold">Culture</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 d-flex flex-column">
+                <img
+                  src="https://d.newsweek.com/en/full/1605726/all-lives.jpg"
+                  alt="img"
+                  class=" flex-lg-grow-1"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold my-2"
+                  >Meghan Markle Black Lives Matter Speech Supported by Majority
+                  of U.K.—Poll</a
+                >
+              </div>
+
+              <div class="col-md-4 d-flex flex-column">
+                <img
+                  src="https://d.newsweek.com/en/full/1603795/eurovision-netflix-graham-norton.webp?w=397&h=265&f=fa69bab3d1df5f861645e54acab812df"
+                  alt="img"
+                  class=" flex-lg-grow-1"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold my-2"
+                  >All the Real-Life Easter Eggs in 'Eurovision' on Netflix</a
+                >
+              </div>
+
+              <div class="col-md-4 d-flex flex-column">
+                <div
+                  class="mb-2 border-bottom pb-2 d-flex align-items-md-start"
+                >
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1333710/hamilton-san-francisco-new-york-gunshots-injuries-chaos.webp?w=95&h=95&f=1d01bb32f53b89a1150b8d91b6927535"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >As Jenna Marbles Quits YouTube Over Blackface, Will Shane
+                    Dawson Follow?</a
+                  >
+                </div>
+
+                <div
+                  class="mb-2 border-bottom pb-2 d-flex align-items-md-start"
+                >
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1603766/daytime-emmys-2020.webp?w=95&h=95&f=79a1b00937b744282a6708879fd47c02"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >How to Watch the 2020 'Daytime Emmys' Online</a
+                  >
+                </div>
+
+                <div class="mb-2 d-flex align-items-md-start">
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1601469/donald-trump.webp?w=95&h=95&f=7789aec249e99c3d4505bce67c670fed"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >What is Parler? Learn About The Trump Approved Social Media
+                    Platform</a
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="sports-section border-top pt-3 mt-3 mid-container">
+            <div class="row">
+              <div class="col-12 d-flex">
+                <h5 class="text-danger font-weight-bold">Sports</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 d-flex flex-column">
+                <img
+                  src="https://d.newsweek.com/en/full/1582646/wwe-performance-center-nxt.webp?w=397&h=265&f=4b96f4c14e96ad58a2105b1001b1a5d2"
+                  alt="img"
+                  class=" flex-lg-grow-1"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold my-2"
+                  >WWE to Continue Testing Amid Reports of Multiple Positive
+                  COVID-19 Cases</a
+                >
+              </div>
+
+              <div class="col-md-4 d-flex flex-column">
+                <img
+                  src="https://d.newsweek.com/en/full/1603180/nascar-confederate-flag.webp?w=397&h=265&f=969b08c56e96cfa1c99e2a591df45741"
+                  alt="img"
+                  class=" flex-lg-grow-1"
+                />
+                <a
+                  href="#"
+                  class="red-underlined-link text-dark font-weight-bold my-2"
+                  >Sons of Confederate Veterans Might Have More Flag Flyovers at
+                  NASCAR Races</a
+                >
+              </div>
+
+              <div class="col-md-4 d-flex flex-column">
+                <div
+                  class="mb-2 border-bottom pb-2 d-flex align-items-md-start"
+                >
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1604834/state-farm-arena-atlanta-hawks.webp?w=95&h=95&f=8dd8ed6c1bafdba9d79d6af9acbd77b2"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >Prince Harry Helping His Favorite Sport to Restart</a
+                  >
+                </div>
+
+                <div
+                  class="mb-2 border-bottom pb-2 d-flex align-items-md-start"
+                >
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1602875/avery-bradley-los-angeles-lakers.webp?w=95&h=95&f=6e2cf6ea348f43002d2d89112db8fb61"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >Which Players Have Opted Out of NBA Season Restart?</a
+                  >
+                </div>
+
+                <div class="mb-2 pb-2 d-flex align-items-md-start">
+                  <img
+                    class="w-50 mr-3"
+                    src="https://d.newsweek.com/en/full/1602847/jack-del-rio-nfl.webp?w=95&h=95&f=2527393e3b93b4f62bd518b472382c78"
+                    alt="img"
+                  />
+                  <a href="#" class="red-on-hover text-dark font-weight-bold"
+                    >Jack Del Rio Shares Fake AOC Tweet, 'Attention to Details'
+                    Questioned</a
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="separator"></div>
+          <div class="row mid-container">
+            <div class="col-lg-6 col-sm-12 subscribe-section">
+              <h5 class="initialism font-weight-bold text-danger">Subscribe</h5>
+              <div
+                class="bg-light d-md-flex align-items-center justify-content-center subscribe-cnt"
+              >
+                <div class="position-relative w-75">
+                  <img
+                    class="subscribe-img-1 position-absolute w-50"
+                    src="https://d.newsweek.com/en/full/1597761/cover-june-19-26-2020.jpg?w=170&q=95&f=5fb0215ca8fd65a8cfe24229880661d4"
+                    alt="img"
+                  />
+                  <img
+                    class="subscribe-img-2 position-absolute w-50"
+                    src="https://d.newsweek.com/en/full/1603489/cover-july-03-2020.jpg?w=170&q=95&f=8446a36f196795281af9db53376bb9c9"
+                    alt="img"
+                  />
+                </div>
+                <div
+                  class="subscribe-content d-md-flex flex-md-column justify-content-center text-md-left"
+                >
+                  <p class="font-weight-bold">
+                    In-depth Stories You Don't See Elsewhere About Topics You
+                    Want to Read!
+                  </p>
+                  <p>
+                    All Access + Weekly Delivery. Choose A Membership That's
+                    Perfect for You!
+                  </p>
+                  <button
+                    class="btn btn-block bg-danger w-50 text-white font-weight-bold"
+                    type="submit"
+                  >
+                    SUBSCRIBE >
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="separator"></div>
+            <div class="col-lg-6 col-sm-12 mid-container">
+              <h5 class="initialism font-weight-bold text-danger">
+                NEWSLETTER
+              </h5>
+              <div class="d-md-flex border newsletter-bottom">
+                <img
+                  class="d-none d-md-block d-lg-block newsletter-img"
+                  src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png"
+                  alt="img"
+                />
+                <div class="w-100 my-0 mx-auto">
+                  <form class="form-signin w-75 my-0 mx-auto py-4">
+                    <h5 class="text-center text-md-left font-weight-bold">
+                      The Starting 5
+                    </h5>
+                    <p class="text-center text-md-left">
+                      See why nearly a quarter of a million subscribers begin
+                      their day with the Starting 5.
+                    </p>
+                    <div class="form-label-group">
+                      <input
+                        type="email"
+                        class="form-control h-25 mb-2"
+                        placeholder="Email address"
+                        required=""
+                      />
+                    </div>
+                    <button
+                      class="btn btn-block bg-danger h-25 text-white font-weight-bold"
+                      type="submit"
+                    >
+                      Sign in >
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="separator"></div>
+
+          <footer class="mx-auto pb-4 mt-md-5 mid-container">
+            <div class="row d-sm-flex border-bottom pb-2">
+              <div class="col d-md-flex justify-content-md-between">
+                <div class="d-md-flex align-items-end">
+                  <a href="#" class="d-block">
+                    <img
+                      class="footer-logo mb-2"
+                      src="img/logo-lg.svg"
+                      alt="img"
+                    />
+                  </a>
+                  <h5 class="text-secondary small ml-md-3">© 2020 NEWSWEEK</h5>
+                </div>
+                <div>
+                  <a href="#" class="ml-1"
+                    ><i class="fab fa-facebook-square text-secondary"></i
+                  ></a>
+                  <a href="#" class="ml-1"
+                    ><i class="fab fa-twitter text-secondary"></i
+                  ></a>
+                  <a href="#" class="ml-1"
+                    ><i class="fab fa-instagram text-secondary"></i
+                  ></a>
+                  <a href="#" class="ml-1"
+                    ><i class="fab fa-tumblr text-secondary"></i
+                  ></a>
+                  <a href="#" class="ml-1"
+                    ><i class="fab fa-linkedin-in text-secondary"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-12 d-flex">
+                <h6 class="mr-1">Editions:</h6>
+                <ul class="d-flex">
+                  <li class="px-1 mr-1">
+                    <a href="#" class="text-secondary">U.S. Edition</a>
+                  </li>
+                  <li class="px-1 mr-1">
+                    <a href="#" class="text-secondary">日本</a>
+                  </li>
+                  <li class="px-1 mr-1">
+                    <a href="#" class="text-secondary">Pakistan</a>
+                  </li>
+                  <li class="px-1 mr-1">
+                    <a href="#" class="text-secondary">Polska</a>
+                  </li>
+                  <li class="px-1 mr-1">
+                    <a href="#" class="text-secondary">România</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-12">
+                <ul class="d-flex flex-wrap">
+                  <li class="">
+                    <a href="#" class="pr-3 text-secondary">About Us</a>
+                  </li>
+                  <li class="">
+                    <a href="#" class="pr-3 text-secondary">Corrections</a>
+                  </li>
+                  <li class="">
+                    <a href="#" class="pr-3 text-secondary">Contact Us</a>
+                  </li>
+                  <li class="">
+                    <a href="#" class="pr-3 text-secondary"
+                      >Editorial Guidelines</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" class="pr-3 text-secondary">Advertise</a>
+                  </li>
+                  <li class="">
+                    <a href="#" class="pr-3 text-secondary">Copyright</a>
+                  </li>
+                  <li class="">
+                    <a href="#" class="pr-3 text-secondary"
+                      >Terms & Conditions</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="#" class="pr-3 text-secondary">Privacy Policy</a>
+                  </li>
+                  <li class="">
+                    <a href="#" class="pr-3 text-secondary">Cookie Policy</a>
+                  </li>
+                  <li class="">
+                    <a href="#" class="pr-3 text-secondary">Terms of Sale</a>
+                  </li>
+                  <li class="">
+                    <a href="#" class="pr-3 text-secondary">Archieve</a>
+                  </li>
+                  <li>
+                    <a href="#" class="pr-3 text-secondary">Announcements</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col">
+                <a href="#" class="text-secondary">Consent Preferences</a>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

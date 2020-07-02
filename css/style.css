@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --newsweek-red-color: #f72210;
+  --header-btn-color: #ffe400;
+  --social-icons-color: #666;
+  --social-icons-hover-color: #3b5998;
+  --side-links-hover-color: #f92859;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.img-h-100 {
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.fab {
+  font-size: 1.5rem;
+}
+
+.wrapper {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+.top-btn-group button {
+  background: none;
+  border: none;
+  margin: 0 5px;
+}
+
+.top-btn-group button i {
+  color: #bbb;
+}
+
+.navbar a {
+  font-size: 0.9rem;
+}
+
+.search-bar {
+  border: none;
+  width: 60px;
+}
+
+.corner-right {
+  position: relative;
+}
+
+.corner-right::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 66px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+.main {
+  max-width: 1310px !important;
+  margin: 0 auto;
+}
+
+.fixed-width {
+  width: 340px;
+}
+
+.flex-basis-100 {
+  flex-basis: 100%;
+}
+
+.mid-container {
+  width: 97%;
+  margin: 0 auto;
+}
+
+.bottom-container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#sub-btn {
+  background-color: var(--header-btn-color);
+  border-radius: 24px;
+  padding: 2px 12px;
+  font-weight: bold;
+}
+
+.logo-section {
+  background-color: var(--newsweek-red-color);
+  padding: 0 10px;
+}
+
+.logo-top {
+  padding-left: 15px;
+}
+
+.brand {
+  width: 140px;
+}
+
+header .wrapper {
+  position: fixed;
+  z-index: 100;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.img-btm-text {
+  background-color: white;
+  width: fit-content;
+  opacity: 0.8;
+  margin-bottom: 0 !important;
+  z-index: 1;
+}
+
+.subscribe-content {
+  padding: 1rem;
+  text-align: center;
+  padding-top: 60%;
+  padding-bottom: 1rem;
+}
+
+.subscribe-content button {
+  margin: 0 auto;
+}
+
+.img-btm-text:hover {
+  text-decoration: none;
+}
+
+.newsletter-img {
+  max-width: 220px;
+}
+
+.red-underlined-link:hover {
+  text-decoration-color: #f72210;
+}
+
+.w-fit-content {
+  width: fit-content;
+}
+
+.w-15 {
+  width: 65px;
+}
+
+.separator {
+  height: 18px;
+  background-color: #f4f5f7;
+  border-top: 1px solid #e2e2e2;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.debate-top-border {
+  border-top: #f92859 4px solid;
+}
+
+.debate-bottom-border {
+  border-bottom: #1c87fb 4px solid;
+}
+
+.red-on-hover:hover {
+  text-decoration: none;
+}
+
+.vs {
+  margin: 1rem 0;
+  height: 3px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.vs-text {
+  background-color: black;
+  border-radius: 50%;
+  padding: 0.3rem;
+  color: white;
+}
+
+.editors-pick-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.subscribe-img-1 {
+  top: 1.8rem;
+  left: 40%;
+}
+
+.subscribe-img-2 {
+  top: 3rem;
+  left: 60%;
+}
+
+footer {
+  font-size: 0.9em;
+}
+
+.footer-logo {
+  width: 240px;
+  fill: white;
+}
+
+@media screen and (min-width: 768px) {
+  .img-btm-text {
+    font-size: 0.7rem;
+  }
+
+  .subscribe-section {
+    height: 380px;
+  }
+
+  .subscribe-cnt {
+    height: 90%;
+  }
+
+  .subscribe-img-1 {
+    top: -150px;
+    left: 10%;
+  }
+
+  .subscribe-img-2 {
+    top: -134px;
+    left: 32%;
+  }
+
+  .subscribe-content {
+    padding-top: 0;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
+  .subscribe-content button {
+    margin: 0;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .img-md-w {
+    width: 25%;
+  }
+
+  .img-md-w img {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .brand {
+    width: 400px;
+  }
+
+  .top-nav .nav-item {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .main {
+    padding-top: 150px;
+  }
+
+  .fixed-width {
+    width: 100%;
+  }
+
+  .see-all-img {
+    height: 265px;
+  }
+
+  .subscribe-content button {
+    padding: 0.6rem;
+  }
+
+  .newsletter-bottom {
+    height: 340px;
+  }
+}
