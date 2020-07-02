@@ -1,6 +1,6 @@
 # newsweek_replica
-A replica of the Newsweek Main Page
 
+A replica of the Newsweek Main Page
 
 This project consists of building a responsive clone of the Newsweek web site using bootstrap.
 
@@ -11,17 +11,15 @@ In this project:
 
 ![screenshot](/img/screenshot.PNG)
 
-
 ## Built With
 
 - HTML5
 - CSS3
-  
 
 ## Live Demo
 
 ​
-[Live Demo Link](https://rawcdn.githack.com/nusretbutunay/newsweek_replica/c9f7f6e309199b6d60536c891047a5989024effc/index.html)
+[Live Demo Link](https://rawcdn.githack.com/nusretbutunay/newsweek_replica/a2d2892851f09e97e7094659e01385f480bd0ec7/index.html)
 ​
 
 ## Getting Started
@@ -39,7 +37,6 @@ $ git clone https://github.com/Maryjanee/The-Next-Web-Clone.git
 - Github: [@rahalrazika](https://github.com/rahalrazika)
 - Linkedin : [@razika rahal](https://www.linkedin.com/in/razika-rahal-85539bbb/)
 - Twitter: [@RereRere055](https://twitter.com/RereRere055)
-
 
 👤 **Nusret**
 

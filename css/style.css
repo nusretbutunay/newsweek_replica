@@ -139,9 +139,11 @@ li {
 .img-btm-text:hover {
   text-decoration: none;
 }
+
 .newsletter-img {
   max-width: 220px;
 }
+
 .red-underlined-link:hover {
   text-decoration-color: #f72210;
 }
