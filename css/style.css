@@ -199,6 +199,11 @@ header .wrapper {
   color: white;
 }
 
+.editors-pick-logo {
+  width: 30px;
+  height: 30px;
+}
+
 .subscribe-img-1 {
   top: 1.8rem;
   left: 40%;
@@ -249,11 +254,6 @@ footer {
 
   .subscribe-content button {
     margin: 0;
-  }
-
-  .editors-pick-logo {
-    width: 30px;
-    height: 30px;
   }
 
   .separator {
